@@ -1,1 +1,1 @@
-Improving my db skills through experiments!
+Improving my db skills through various small projects!
