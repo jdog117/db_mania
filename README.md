@@ -10,3 +10,7 @@ Other db info: https://github.com/sakiladb/mysql
 docker run -p 3306:3306 -d mysql:latest
 
 Connect: mysql -h 172.17.0.2 -u root -p
+
+#### Users
+> CREATE USER 'your_username'@'your_host' IDENTIFIED BY 'your_password';
+> GRANT ALL PRIVILEGES ON your_database.* TO 'your_username'@'your_host';
