@@ -1,4 +1,4 @@
-# Sandbox for testing and improving db skills
+# Sandbox for testing and improving database skills
 
 ### Database connection
 #### Sakila db in Docker
@@ -14,3 +14,9 @@ Connect: mysql -h 172.17.0.2 -u root -p
 #### Users
 > CREATE USER 'your_username'@'your_host' IDENTIFIED BY 'your_password';
 > GRANT ALL PRIVILEGES ON your_database.* TO 'your_username'@'your_host';
+
+## ToDo
+- [ ] Create some db migrations
+- [ ] Implement Prisma
+- [ ] js sequalize
+- [ ] py alchemy
